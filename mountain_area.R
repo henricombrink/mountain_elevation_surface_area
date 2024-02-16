@@ -19,6 +19,8 @@ require(ggfx)
 ##############
 # Load data 
 ##############
+#Zipped tif available here:
+#https://drive.google.com/file/d/1D313HL_lqXZ07S0GhVa_Q9u_3WNCAQF4/view?usp=drive_link
 
 mtg_clipped <- terra::rast(here::here("mntg_clipped_dem.tif"))
 mtg_clipped_df <- as.data.frame(mtg_clipped, xy = TRUE)
